@@ -47,7 +47,7 @@ function galleryPages() {
   let html = '';
   for (let i = 1; i <= 11; i++) {
     const n = String(i).padStart(2, '0');
-    html += `<div class="gallery-page"><img src="assets/prospectus-pages/page-${n}.png" alt="Prospectus page ${i}" loading="lazy"></div>`;
+    html += `<div class="gallery-page"><img src="https://kd6720.github.io/Fort-Myers-Beach-Insider/assets/prospectus-pages/page-${n}.png" alt="Prospectus page ${i}" loading="lazy"></div>`;
   }
   return html;
 }
@@ -68,7 +68,7 @@ const html = `<!DOCTYPE html>
 <meta name="description" content="Fort Myers Beach 2026: prices down, hotel supply 41% below pre-Ian, weekly rentals legal Gulf-side. The dual-use beach investment, explained with data.">
 <meta property="og:title" content="${esc('Fort Myers Beach Real Estate Investment — Own the Beach, Rent It When You\'re Away')}">
 <meta property="og:description" content="Fort Myers Beach 2026: prices down, hotel supply 41% below pre-Ian, weekly rentals legal Gulf-side. The dual-use beach investment, explained with data.">
-<meta property="og:image" content="assets/photos/01-hero-beach-aerial.jpg">
+<meta property="og:image" content="https://kd6720.github.io/Fort-Myers-Beach-Insider/assets/photos/01-hero-beach-aerial.jpg">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://fortmyersbeachinsider.com">
@@ -225,7 +225,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
 </nav>
 
 <section class="hero" id="home">
-  <img class="hero-bg" src="assets/photos/01-hero-beach-aerial.jpg" alt="Aerial view of white sand Fort Myers Beach with turquoise Gulf water">
+  <img class="hero-bg" src="https://kd6720.github.io/Fort-Myers-Beach-Insider/assets/photos/01-hero-beach-aerial.jpg" alt="Aerial view of white sand Fort Myers Beach with turquoise Gulf water">
   <div class="hero-content">
     <h1>${esc(site.tagline)}</h1>
     <p class="sub">${esc(thesis.one_liner)}</p>
@@ -261,7 +261,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
       <div class="stat-row"><span>Registration</span><span class="val">${esc(mkt.rentals.rules)}</span></div>
     </div>
     <div class="dual-highlight">
-      <img class="dual-highlight-bg" src="assets/photos/02-dual-use-beach-house.jpg" alt="Modern elevated beach house in golden dunes">
+      <img class="dual-highlight-bg" src="https://kd6720.github.io/Fort-Myers-Beach-Insider/assets/photos/02-dual-use-beach-house.jpg" alt="Modern elevated beach house in golden dunes">
       <span class="big">${esc(mkt.rentals.large_home_gross_annual)}</span>
       <span class="sub">Annual gross for new elevated 5-6BR homes in the weekly-rental zone</span>
     </div>
@@ -270,7 +270,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
 </section>
 
 <section id="island" style="position:relative">
-  <img src="assets/photos/03-island-rebuilt-pier.jpg" alt="Pier at sunset — illustrative of the new Fort Myers Beach pier" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.08;pointer-events:none">
+  <img src="https://kd6720.github.io/Fort-Myers-Beach-Insider/assets/photos/03-island-rebuilt-pier.jpg" alt="Pier at sunset — illustrative of the new Fort Myers Beach pier" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.08;pointer-events:none">
   <div style="position:relative;z-index:1">
   <span class="section-label">The Island Is Back</span>
   <h2>Rebuilt, Reopened, and Running</h2>
@@ -293,13 +293,13 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
       <ul>${rebuildList(island.events)}</ul>
     </div>
   </div>
-  <div style="margin-top:2rem;border-radius:12px;overflow:hidden"><img src="assets/photos/04-lifestyle-dining.jpg" alt="Waterfront tiki dining at golden hour — illustrative of 40+ restaurants on Fort Myers Beach" style="width:100%;display:block"></div>
+  <div style="margin-top:2rem;border-radius:12px;overflow:hidden"><img src="https://kd6720.github.io/Fort-Myers-Beach-Insider/assets/photos/04-lifestyle-dining.jpg" alt="Waterfront tiki dining at golden hour — illustrative of 40+ restaurants on Fort Myers Beach" style="width:100%;display:block"></div>
   <small class="data-note">Data as of July 2026</small>
   </div>
 </section>
 
 <section id="market" style="background:#F8FAFC">
-  <div style="float:right;width:40%;margin:0 0 1.5rem 2rem;border-radius:12px;overflow:hidden"><img src="assets/photos/05-new-construction-homes.jpg" alt="Street of new elevated piling homes on Fort Myers Beach" style="width:100%;display:block"></div>
+  <div style="float:right;width:40%;margin:0 0 1.5rem 2rem;border-radius:12px;overflow:hidden"><img src="https://kd6720.github.io/Fort-Myers-Beach-Insider/assets/photos/05-new-construction-homes.jpg" alt="Street of new elevated piling homes on Fort Myers Beach" style="width:100%;display:block"></div>
   <span class="section-label">Market Snapshot</span>
   <h2>The 2026 Entry Window</h2>
   <hr>
@@ -321,7 +321,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
   <hr>
   <div class="regional-grid">
     <div class="regional-card">
-      <img src="assets/photos/06-rsw-airport-terminal.jpg" alt="Bright modern airport concourse — illustrative of RSW $1.7B expansion" style="width:100%;border-radius:8px;margin-bottom:1rem">
+      <img src="https://kd6720.github.io/Fort-Myers-Beach-Insider/assets/photos/06-rsw-airport-terminal.jpg" alt="Bright modern airport concourse — illustrative of RSW $1.7B expansion" style="width:100%;border-radius:8px;margin-bottom:1rem">
       <h3>✈️ RSW Airport — $1.7B Expansion</h3>
       <p>${esc(regional.rsw_airport.program)}</p>
       <ul style="margin-top:0.75rem">
@@ -341,7 +341,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
       </ul>
     </div>
     <div class="regional-card">
-      <img src="assets/photos/07-downtown-riverfront.jpg" alt="River District marina and towers at dusk — illustrative of downtown Fort Myers $6B redevelopment" style="width:100%;border-radius:8px;margin-bottom:1rem">
+      <img src="https://kd6720.github.io/Fort-Myers-Beach-Insider/assets/photos/07-downtown-riverfront.jpg" alt="River District marina and towers at dusk — illustrative of downtown Fort Myers $6B redevelopment" style="width:100%;border-radius:8px;margin-bottom:1rem">
       <h3>🏙️ Downtown Fort Myers — $6B Redevelopment</h3>
       <p>${esc(regional.downtown_fort_myers.master_plan)}</p>
       <ul style="margin-top:0.75rem">
@@ -392,7 +392,7 @@ ${ladder.map((r,i) => `<tr${i===ladder.length-1?' class="ladder-best"':''}><td>$
 </section>
 
 <section class="lead-section">
-  <img class="lead-section-bg" src="assets/photos/08-cta-sunset-dunes.jpg" alt="Pastel sunset over Fort Myers Beach dunes">
+  <img class="lead-section-bg" src="https://kd6720.github.io/Fort-Myers-Beach-Insider/assets/photos/08-cta-sunset-dunes.jpg" alt="Pastel sunset over Fort Myers Beach dunes">
   <h2>Get the Prospectus + Market Updates</h2>
   <p>One email. The full prospectus PDF, plus occasional market updates — no spam, unsubscribe anytime.</p>
   <form class="lead-form" id="lead-form" onsubmit="return handleSubmit(event)">
