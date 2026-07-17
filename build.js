@@ -68,7 +68,7 @@ const html = `<!DOCTYPE html>
 <meta name="description" content="Fort Myers Beach 2026: prices down, hotel supply 41% below pre-Ian, weekly rentals legal Gulf-side. The dual-use beach investment, explained with data.">
 <meta property="og:title" content="${esc('Fort Myers Beach Real Estate Investment — Own the Beach, Rent It When You\'re Away')}">
 <meta property="og:description" content="Fort Myers Beach 2026: prices down, hotel supply 41% below pre-Ian, weekly rentals legal Gulf-side. The dual-use beach investment, explained with data.">
-<meta property="og:image" content="assets/photos/01-hero-beach-aerial.png">
+<meta property="og:image" content="assets/photos/01-hero-beach-aerial.webp">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="canonical" href="https://fortmyersbeachinsider.com">
@@ -96,7 +96,7 @@ nav .nav-links a:hover{color:#009EB7}
 
 /* Hero */
 .hero{min-height:100vh;display:flex;align-items:center;position:relative;background:linear-gradient(135deg, #284851 0%, #335D68 40%, #009EB7 100%);color:#fff;padding:7rem 1.5rem 5rem}
-.hero::before{content:'';position:absolute;inset:0;background:url('assets/photos/01-hero-beach-aerial.png') center/cover;opacity:0.15}
+.hero::before{content:'';position:absolute;inset:0;background:url('assets/photos/01-hero-beach-aerial.webp') center/cover;opacity:0.15}
 .hero-content{position:relative;max-width:800px;margin:0 auto;text-align:center}
 .hero h1{font-size:clamp(2.2rem,6vw,4rem);font-weight:800;line-height:1.15;margin-bottom:1.25rem}
 .hero p.sub{font-size:1.15rem;opacity:0.9;max-width:600px;margin:0 auto 2rem;line-height:1.7}
@@ -122,7 +122,7 @@ nav .nav-links a:hover{color:#009EB7}
 .dual-card h3{color:#009EB7;margin-bottom:1rem}
 .stat-row{display:flex;justify-content:space-between;padding:0.5rem 0;border-bottom:1px solid #F1F5F9;font-size:0.95rem}
 .stat-row .val{font-weight:700;color:#284851}
-.dual-highlight{background:linear-gradient(135deg,rgba(40,72,81,0.85),rgba(51,93,104,0.85)),url('assets/photos/02-dual-use-beach-house.png') center/cover;color:#fff;border-radius:12px;padding:2rem;text-align:center}
+.dual-highlight{background:linear-gradient(135deg,rgba(40,72,81,0.85),rgba(51,93,104,0.85)),url('assets/photos/02-dual-use-beach-house.webp') center/cover;color:#fff;border-radius:12px;padding:2rem;text-align:center}
 .dual-highlight .big{font-size:clamp(2rem,5vw,3rem);font-weight:800;display:block}
 .dual-highlight .sub{opacity:0.8;font-size:0.95rem;margin-top:0.5rem}
 
@@ -173,7 +173,7 @@ nav .nav-links a:hover{color:#009EB7}
 .risk-card p{color:#64748B}
 
 /* Lead */
-.lead-section{background:linear-gradient(135deg,rgba(40,72,81,0.88),rgba(0,158,183,0.82)),url('assets/photos/08-cta-sunset-dunes.png') center/cover;color:#fff;border-radius:16px;padding:3rem;text-align:center;margin-top:0}
+.lead-section{background:linear-gradient(135deg,rgba(40,72,81,0.88),rgba(0,158,183,0.82)),url('assets/photos/08-cta-sunset-dunes.webp') center/cover;color:#fff;border-radius:16px;padding:3rem;text-align:center;margin-top:0}
 .lead-section h2{color:#fff}
 .lead-section p{opacity:0.85;margin-bottom:1.5rem;max-width:500px;margin-left:auto;margin-right:auto}
 .lead-form{display:flex;gap:0.75rem;max-width:450px;margin:0 auto;flex-wrap:wrap;justify-content:center}
@@ -261,7 +261,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
 </section>
 
 <section id="island" style="position:relative">
-  <div style="position:absolute;inset:0;background:url('assets/photos/03-island-rebuilt-pier.png') center/cover;opacity:0.08;pointer-events:none"></div>
+  <div style="position:absolute;inset:0;background:url('assets/photos/03-island-rebuilt-pier.webp') center/cover;opacity:0.08;pointer-events:none"></div>
   <div style="position:relative;z-index:1">
   <span class="section-label">The Island Is Back</span>
   <h2>Rebuilt, Reopened, and Running</h2>
@@ -284,13 +284,13 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
       <ul>${rebuildList(island.events)}</ul>
     </div>
   </div>
-  <div style="margin-top:2rem;border-radius:12px;overflow:hidden"><img src="assets/photos/04-lifestyle-dining.png" alt="Waterfront tiki dining at golden hour — illustrative of 40+ restaurants on Fort Myers Beach" style="width:100%;display:block"></div>
+  <div style="margin-top:2rem;border-radius:12px;overflow:hidden"><img src="assets/photos/04-lifestyle-dining.webp" alt="Waterfront tiki dining at golden hour — illustrative of 40+ restaurants on Fort Myers Beach" style="width:100%;display:block"></div>
   <small class="data-note">Data as of July 2026</small>
   </div>
 </section>
 
 <section id="market" style="background:#F8FAFC">
-  <div style="float:right;width:40%;margin:0 0 1.5rem 2rem;border-radius:12px;overflow:hidden"><img src="assets/photos/05-new-construction-homes.png" alt="Street of new elevated piling homes on Fort Myers Beach" style="width:100%;display:block"></div>
+  <div style="float:right;width:40%;margin:0 0 1.5rem 2rem;border-radius:12px;overflow:hidden"><img src="assets/photos/05-new-construction-homes.webp" alt="Street of new elevated piling homes on Fort Myers Beach" style="width:100%;display:block"></div>
   <span class="section-label">Market Snapshot</span>
   <h2>The 2026 Entry Window</h2>
   <hr>
@@ -312,7 +312,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
   <hr>
   <div class="regional-grid">
     <div class="regional-card">
-      <img src="assets/photos/06-rsw-airport-terminal.png" alt="Bright modern airport concourse — illustrative of RSW $1.7B expansion" style="width:100%;border-radius:8px;margin-bottom:1rem">
+      <img src="assets/photos/06-rsw-airport-terminal.webp" alt="Bright modern airport concourse — illustrative of RSW $1.7B expansion" style="width:100%;border-radius:8px;margin-bottom:1rem">
       <h3>✈️ RSW Airport — $1.7B Expansion</h3>
       <p>${esc(regional.rsw_airport.program)}</p>
       <ul style="margin-top:0.75rem">
@@ -332,7 +332,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
       </ul>
     </div>
     <div class="regional-card">
-      <img src="assets/photos/07-downtown-riverfront.png" alt="River District marina and towers at dusk — illustrative of downtown Fort Myers $6B redevelopment" style="width:100%;border-radius:8px;margin-bottom:1rem">
+      <img src="assets/photos/07-downtown-riverfront.webp" alt="River District marina and towers at dusk — illustrative of downtown Fort Myers $6B redevelopment" style="width:100%;border-radius:8px;margin-bottom:1rem">
       <h3>🏙️ Downtown Fort Myers — $6B Redevelopment</h3>
       <p>${esc(regional.downtown_fort_myers.master_plan)}</p>
       <ul style="margin-top:0.75rem">
