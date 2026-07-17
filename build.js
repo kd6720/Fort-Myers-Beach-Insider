@@ -95,8 +95,9 @@ nav .nav-links a{color:#475569;text-decoration:none;transition:color 0.2s}
 nav .nav-links a:hover{color:#009EB7}
 
 /* Hero */
-.hero{min-height:100vh;display:flex;align-items:center;position:relative;background:linear-gradient(135deg, #284851 0%, #335D68 40%, #009EB7 100%);color:#fff;padding:7rem 1.5rem 5rem}
-.hero::before{content:'';position:absolute;inset:0;background:url('assets/photos/01-hero-beach-aerial.jpg') center/cover;opacity:0.5;z-index:0}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;color:#fff;padding:7rem 1.5rem 5rem;overflow:hidden}
+.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg, rgba(40,72,81,0.6), rgba(51,93,104,0.4), rgba(0,158,183,0.35));z-index:0}
 .hero-content{position:relative;z-index:1;max-width:800px;margin:0 auto;text-align:center}
 .hero h1{font-size:clamp(2.2rem,6vw,4rem);font-weight:800;line-height:1.15;margin-bottom:1.25rem}
 .hero p.sub{font-size:1.15rem;opacity:0.9;max-width:600px;margin:0 auto 2rem;line-height:1.7}
@@ -218,6 +219,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
 </nav>
 
 <section class="hero" id="home">
+  <img class="hero-bg" src="assets/photos/01-hero-beach-aerial.jpg" alt="Aerial view of white sand Fort Myers Beach with turquoise Gulf water">
   <div class="hero-content">
     <h1>${esc(site.tagline)}</h1>
     <p class="sub">${esc(thesis.one_liner)}</p>
