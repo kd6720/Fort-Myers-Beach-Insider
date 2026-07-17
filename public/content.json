@@ -1,0 +1,118 @@
+{
+  "site": {
+    "name": "Fort Myers Beach Insider",
+    "tagline": "Own the beach. Use it when you want. Rent it when you don't.",
+    "positioning": "Fort Myers Beach is a rebuilt, supply-constrained Gulf island in a 2026 buyer's market — the rare setup where lifestyle ownership and investment yield point at the same asset.",
+    "audience": ["Beach-property buyers in SW Florida and feeder markets (Midwest, Northeast, East Coast FL)", "STR / vacation-rental investors", "1031 and second-home buyers", "Agents and referral partners"],
+    "prepared": "July 2026",
+    "disclaimer": "Informational only — not financial, legal, or tax advice. Data as of July 2026 from public sources; verify before transacting."
+  },
+  "core_thesis": {
+    "one_liner": "Buy the 2026 price trough on an island with fixed land supply, a 41% hotel-room deficit, a completed $23M beach, and $1.7B of airport capacity being built 25 minutes away.",
+    "dual_use_pitch": "A beach house here isn't either/or. Block the weeks you want. Rent the rest — weekly rentals are legal by right in the Gulf-side zone, and large new homes gross $80K–$166K a year.",
+    "pillars": [
+      {"title": "Buyer's market entry", "stat": "Prices down 9–18% YoY; 95% of sales close below list; 11–13 months of supply"},
+      {"title": "Structural lodging deficit", "stat": "Only ~59% of pre-Ian hotel rooms are back; county ADR $168, +10.2% YoY"},
+      {"title": "Hardened new inventory", "stat": "Post-Ian elevated concrete builds carry materially lower insurance than legacy stock"},
+      {"title": "Demand pipeline", "stat": "RSW: record 11.15M passengers 2025; 14 new gates by end of 2027"}
+    ]
+  },
+  "market_snapshot": {
+    "as_of": "mid-2026",
+    "housing": {
+      "median_sale_price": "$546K–$575K",
+      "median_price_trend": "-9% to -18% YoY",
+      "single_family_median": "$1,230,000",
+      "condo_median": "$579,000",
+      "price_per_sqft_market": "$665",
+      "price_per_sqft_new_construction": "$1,100–$1,300",
+      "active_listings": "~400 homes",
+      "vacant_lots_listed": 209,
+      "median_lot_price": "$745,000",
+      "gulf_front_lot_range": "$2.7M–$3.0M",
+      "months_of_supply": "11–13",
+      "days_on_market": "100–157",
+      "sales_below_list_pct": "95%",
+      "condo_cash_sales_pct": "63%",
+      "condo_risks": "Milestone inspections, SIRS reserve mandates, special assessments $20K–$100K+",
+      "insurance_note": "Legacy VE-zone flood $5K–$20K+/yr; new elevated builds materially cheaper; FEMA CRS Class 5 = 25% flood discounts island-wide; Citizens filed first rate decrease June 2026"
+    },
+    "rentals": {
+      "str_adr": "$370–$425",
+      "str_occupancy": "39–57%",
+      "avg_listing_gross_annual": "$33K–$46K",
+      "large_home_gross_annual": "$80K–$166K (5BR+)",
+      "gross_yields": "8–9%",
+      "rules": "Weekly rentals allowed in Gulf-side exception zone; monthly minimum in residential zones; ~$300/yr registration; enforcement tightening",
+      "taxes": "~11%+ combined (state + county sales + 5% tourist development tax)"
+    },
+    "hotels": {
+      "pre_ian_rooms": "~2,000 across 43 properties",
+      "rooms_online_pct": "~59%",
+      "county_hotel_adr": "$168 (+10.2% YoY)",
+      "operating": ["Margaritaville (254 rooms)", "Pink Shell (195 units, 80%+ occupancy)", "Lani Kai (125)", "DiamondHead", "Best Western Plus"],
+      "approved_pipeline": "~584 rooms/units (Arches Bayfront 263, Silver Sands 60, Pink Shell +40, others) — years from delivery"
+    },
+    "tourism": {
+      "lee_county_visitors_fy2425": "3.27M (+4.3%)",
+      "direct_spend": "$3.20B",
+      "bed_tax_trend": "FY25 $46.8M (+5.8%); early FY26 +20.9% YoY",
+      "town_taxable_value": "$4.94B in 2025 (+12.3%), above pre-Ian levels"
+    }
+  },
+  "island_rebuild": {
+    "beach": "Renourishment complete Aug 2025 — $23M, ~1M cubic yards; 100K+ dune plantings",
+    "infrastructure": ["Estero Blvd $9M repair program (completes Fall 2027)", "San Carlos Blvd $13M corridor complete — smart signals, seasonal transit lane", "Water/sewer fully restored", "New storm-hardened Town Hall (Sept 2025); library reopened Mar 2025", "Free seasonal trolley + tram restored", "Mooring field reopened (19 moorings, vessels to 85 ft)"],
+    "development_pipeline": [
+      {"project": "Margaritaville Beach Resort", "detail": "$200M, 254 rooms, opened Dec 2023; refinanced 2026 on rising NOI"},
+      {"project": "New Fishing Pier", "detail": "$17.7M, 1,000 ft (70% longer); contract awarded Apr 2026; completion 2027–28"},
+      {"project": "Sunset Beach Resort (Times Square)", "detail": "$13M mixed-use; broke ground Jul 2026; opens mid-2027"},
+      {"project": "Arches Bayfront (Moss Marina)", "detail": "263 hotel rooms approved 2025"},
+      {"project": "Silver Sands Resort", "detail": "60 rooms approved Jun 2026"},
+      {"project": "Pink Shell expansion", "detail": "+40 rooms approved"}
+    ],
+    "parks": ["Lynn Hall Memorial Park $6M rebuild (summer 2027)", "Crescent Beach Family Park $1.3M (2026)", "Bowditch Point $3.9M approved", "Bay Oaks Rec Campus reopened 2025", "Lovers Key State Park open"],
+    "dining": "40+ restaurants open — Doc Ford's, Dixie Fish Co., Nervous Nellie's, Snug Harbor, Yucatan Beach Stand, Salty Sam's, The Whale (new elevated flagship, Nov 2025), six Margaritaville venues",
+    "events": ["Shrimp Festival (March)", "Taste/food events + farmers market (seasonal)", "Island Hopper Songwriter Fest (September)", "Pirate Festival (October)", "American Sand Sculpting Championship (November)", "Christmas Boat Parade (December)"]
+  },
+  "regional_engine": {
+    "rsw_airport": {
+      "program": "$1.7B terminal expansion — largest in Lee County Port Authority history; funded by $725M bond sale, no local tax dollars",
+      "concourse_e": "14 new gates, ~$1.1B, halfway Dec 2025, target completion end of 2027",
+      "traffic": "Record 11.15M passengers 2025; Oct 2025 monthly record 774,689 (+18%)",
+      "status_rank": "Top-50 U.S. airport; 2nd-busiest single-runway airport in America",
+      "impact": "$8.3B annual economic output; 60,000+ jobs",
+      "caveat": "Phase 1 checkpoint completes 2029 — cite Concourse E (2027) as the near-term capacity win"
+    },
+    "lee_county": {
+      "population": "875,607 (2025), +15.1% since 2020 — among America's fastest-growing large counties",
+      "babcock_ranch": "Record 1,066 home sales 2025 (+34%); top-5 U.S. master-planned community; never lost power in Ian",
+      "lee_health": "$820M, 236-bed Fort Myers hospital opening 2028 — SWFL's largest-ever healthcare build",
+      "roads_2026": "Cape Coral Bridge widening + SR 31 six-laning start construction; Big Carlos Pass Bridge open",
+      "anchors": "FGCU 16,600+ students; Red Sox + Twins spring training; Cape Coral's $125M Bimini Square opened Feb 2026"
+    },
+    "downtown_fort_myers": {
+      "master_plan": "$6B, 60+ acres of downtown/Midtown redevelopment over five years",
+      "news_press_site": "350 residences, 150K sq ft office, retail, 140–160-room hotel — construction starts Dec 2026",
+      "city_of_palms_park": "21 acres to mixed-use destination",
+      "yacht_basin": "Suntex Marinas — up to 280 slips, riverwalk, 40K sq ft dining/retail",
+      "tower_proposal": "23-story, up-to-600-unit riverfront tower proposed Jan 2026",
+      "delivered": "Luminary Hotel ($91M, 243 rooms) + Caloosa Sound Convention Center",
+      "pipeline": "1,700+ residential units (Silver Hills/Triton Cay, Prima Luce, West End at City Walk, Vantage Lofts, more)",
+      "scene": "Monthly Art Walk & Music Walk; Edison & Ford Winter Estates; 20 minutes from the beach"
+    }
+  },
+  "investment_ladder": [
+    {"entry": "Older condo", "price": "from $195K (median $579K)", "note": "SIRS/assessment/insurance risk — underwrite the building, not just the unit"},
+    {"entry": "Condo-hotel unit", "price": "$309K–$485K", "note": "Non-QM financing, 25%+ down; hands-off hotel-run rental"},
+    {"entry": "Legacy single-family", "price": "~$1.23M median", "note": "Heavier insurance load ($14K wind + $5–20K flood typical)"},
+    {"entry": "Vacant lot + new build", "price": "$745K median lot + build", "note": "Build-to-rent; modern code = lower insurance"},
+    {"entry": "New elevated 5-6BR, weekly-rental zone", "price": "$2M–$5M+", "note": "Grosses $80K–$166K/yr — the risk-adjusted sweet spot"}
+  ],
+  "bottom_line": {
+    "best_play": "New-construction large homes on the walkable north end near Margaritaville/Times Square, in the weekly-rental zone",
+    "timing": "Buy the 2026 trough — Realtor.com forecasts the metro -10.2% for 2026, the steepest in the U.S.; supply-constrained island fundamentals argue the other way long-term",
+    "risks": ["Insurance volatility", "Pier/permitting timing", "Seagate/Red Coconut project uncertainty", "Hurricane exposure"]
+  },
+  "sources": ["Lee County / Town of Fort Myers Beach", "Beach Observer (fortmyersbeachtalk.com)", "Beach Talk Radio News", "Gulfshore Business", "WINK News", "Fox 4", "Lee County VCB tourism reports", "Zillow / Houzeo / RealtyTrac / Homes.com", "AirDNA / AirROI / Rabbu / Airbtics", "flylcpa.com (RSW)", "U.S. Census QuickFacts", "Lee Health", "Fort Myers CRA", "Realtor.com 2026 forecast"]
+}
