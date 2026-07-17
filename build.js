@@ -447,6 +447,7 @@ async function handleSubmit(e) {
 </html>`;
 
 fs.mkdirSync('dist', { recursive: true });
+fs.cpSync('public', 'dist', { recursive: true });
 fs.writeFileSync('dist/index.html', html);
 fs.writeFileSync('index.html', html);
 console.log('✓ Built index.html (' + (html.length / 1024).toFixed(0) + ' KB)');
