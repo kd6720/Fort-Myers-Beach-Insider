@@ -62,7 +62,10 @@ nav .nav-links a:hover{color:#009EB7}
 .dual-card h3{color:#009EB7;margin-bottom:1rem}
 .stat-row{display:flex;justify-content:space-between;padding:0.5rem 0;border-bottom:1px solid #F1F5F9;font-size:0.95rem}
 .stat-row .val{font-weight:700;color:#284851}
-.dual-highlight{background:linear-gradient(135deg,rgba(40,72,81,0.85),rgba(51,93,104,0.85)),url('assets/photos/02-dual-use-beach-house.jpg') center/cover;color:#fff;border-radius:12px;padding:2rem;text-align:center}
+.dual-highlight{position:relative;overflow:hidden;color:#fff;border-radius:12px;padding:2rem;text-align:center}
+.dual-highlight-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.dual-highlight::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(40,72,81,0.85),rgba(51,93,104,0.85));z-index:0}
+.dual-highlight>*{position:relative;z-index:1}
 .dual-highlight .big{font-size:clamp(2rem,5vw,3rem);font-weight:800;display:block}
 .dual-highlight .sub{opacity:0.8;font-size:0.95rem;margin-top:0.5rem}
 
@@ -113,7 +116,10 @@ nav .nav-links a:hover{color:#009EB7}
 .risk-card p{color:#64748B}
 
 /* Lead */
-.lead-section{background:linear-gradient(135deg,rgba(40,72,81,0.88),rgba(0,158,183,0.82)),url('assets/photos/08-cta-sunset-dunes.jpg') center/cover;color:#fff;border-radius:16px;padding:3rem;text-align:center;margin-top:0}
+.lead-section{position:relative;overflow:hidden;color:#fff;border-radius:16px;padding:3rem;text-align:center;margin-top:0}
+.lead-section-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+.lead-section::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(40,72,81,0.88),rgba(0,158,183,0.82));z-index:0}
+.lead-section>*{position:relative;z-index:1}
 .lead-section h2{color:#fff}
 .lead-section p{opacity:0.85;margin-bottom:1.5rem;max-width:500px;margin-left:auto;margin-right:auto}
 .lead-form{display:flex;gap:0.75rem;max-width:450px;margin:0 auto;flex-wrap:wrap;justify-content:center}
@@ -210,6 +216,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
       <div class="stat-row"><span>Registration</span><span class="val">Weekly rentals allowed in Gulf-side exception zone; monthly minimum in residential zones; ~$300/yr registration; enforcement tightening</span></div>
     </div>
     <div class="dual-highlight">
+      <img class="dual-highlight-bg" src="assets/photos/02-dual-use-beach-house.jpg" alt="Modern elevated beach house in golden dunes">
       <span class="big">$80K–$166K (5BR+)</span>
       <span class="sub">Annual gross for new elevated 5-6BR homes in the weekly-rental zone</span>
     </div>
@@ -218,7 +225,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
 </section>
 
 <section id="island" style="position:relative">
-  <div style="position:absolute;inset:0;background:url('assets/photos/03-island-rebuilt-pier.jpg') center/cover;opacity:0.08;pointer-events:none"></div>
+  <img src="assets/photos/03-island-rebuilt-pier.jpg" alt="Pier at sunset — illustrative of the new Fort Myers Beach pier" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.08;pointer-events:none">
   <div style="position:relative;z-index:1">
   <span class="section-label">The Island Is Back</span>
   <h2>Rebuilt, Reopened, and Running</h2>
@@ -340,6 +347,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
 </section>
 
 <section class="lead-section">
+  <img class="lead-section-bg" src="assets/photos/08-cta-sunset-dunes.jpg" alt="Pastel sunset over Fort Myers Beach dunes">
   <h2>Get the Prospectus + Market Updates</h2>
   <p>One email. The full prospectus PDF, plus occasional market updates — no spam, unsubscribe anytime.</p>
   <form class="lead-form" id="lead-form" onsubmit="return handleSubmit(event)">
