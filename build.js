@@ -284,6 +284,7 @@ footer{background:#284851;color:#E2E8F0;padding:3rem 1.5rem;font-size:0.85rem}
       <ul>${rebuildList(island.events)}</ul>
     </div>
   </div>
+  <div style="margin-top:2rem;border-radius:12px;overflow:hidden"><img src="assets/photos/04-lifestyle-dining.png" alt="Waterfront tiki dining at golden hour — illustrative of 40+ restaurants on Fort Myers Beach" style="width:100%;display:block"></div>
   <small class="data-note">Data as of July 2026</small>
   </div>
 </section>
